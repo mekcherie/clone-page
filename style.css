@@ -1,41 +1,16 @@
 body {
-    color:red;
+    color:white;
   }
 
   .navbar {
     padding: 1rem;
-    background-color: blue;
+    background-color: grey;
   }
-
-  .btn-primary:hover {
-    background-color: blue;
+  #navbar-nav {
     color: white;
   }
-
-  .hero-background-img {
-    background-image: url("./picture/isaac-matthew-w19IJypbGCE-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top:200px;
-    padding-bottom:200px;
-    position: relative;
-    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
-    padding-top:200px;  
-    padding-bottom:200px;
-  }
-
-  .hero-background-img:after {
-    content: "";
-    position: absolute;
-    background-image: url("picture/isaac-matthew-w19IJypbGCE-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    opacity: 0.5; /* Tone the image down further by giving it transparency */
-  }
+  .contianer {
+    display: flex;
+    justify-content: center;
+}
+ 
